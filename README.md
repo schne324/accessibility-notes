@@ -14,6 +14,7 @@ Accessibility Notes
 
 
 example:
+
 ```
 <div id="tooltip">this is a tooltip</div>
 <input type="text" id="tooltip-target" aria-describedby="tooltip" \>
@@ -24,6 +25,7 @@ example:
 
 - this can often times replace the desired behavior of a fieldset/legend markup scheme
 example:
+
 ```
 <div id="radio_label">My radio label</div>
 <ul role="radiogroup" aria-labelledby="radio_label">
