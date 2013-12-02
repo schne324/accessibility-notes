@@ -1,7 +1,5 @@
-accessibility-notes
+Accessibility Notes
 ===================
-
-# Accessibility Notes
 
 ## aria-describedby
 
