@@ -12,7 +12,7 @@ Accessibility Notes
 - error messages
 
 __*AT Notes*__
-- VO: if an element has multiple aria-describedby values only the first will be read out (ex: aria-describedby="id1 id2" only id1's content will be read out)
+
 
 
 
