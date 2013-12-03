@@ -11,6 +11,9 @@ Accessibility Notes
 - tooltips
 - error messages
 
+__*AT Notes*__
+- VO: if an element has multiple aria-describedby values only the first will be read out (ex: aria-describedby="id1 id2" only id1's content will be read out)
+
 
 
 example:
@@ -23,7 +26,7 @@ example:
 ## aria-labelledby
 "aria-labelledby can be used in conjunction with the <label> element (using the for attribute) to improve compatibility with user agents that do not yet support ARIA." (mdn)
 
-- this can often times replace the desired behavior of a fieldset/legend markup scheme
+- lablledby can be used in conjunction with a label element
 example:
 
 ```
