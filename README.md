@@ -37,3 +37,9 @@ example:
     <li role="radio">Item #3</li>
 </ul>
 ```
+
+
+##aria-label
+
+- Supported by Jaws in most cases
+- NOT supported by NVDA
