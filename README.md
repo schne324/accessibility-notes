@@ -52,3 +52,12 @@ NVDA
 
 - The `Enter` key by itself will not trigger click events on focusable elements
 - Instead, use `NVDA key` (often caps-lock) `+ Enter`
+
+##Keyboard events with JAWS and NVDA
+
+JAWS
+
+- To access default arrow key behavior (i.e. within a datepicker), press *control + window + {arrow key}*
+
+NVDA
+- To access default arrow key behavoir (i.e. within a datepicker), press *control + shift + alt + {arrow key}*
