@@ -4,7 +4,7 @@ Accessibility Notes
 **Key:**
 - VO: _Voice Over_ (paired with Safari)
 - NVDA: _NonVisual Desktop Access_ (paired with FireFox or _FF_)
-- JAWS: _Job Access With Speec_ (paired with Internet Explorer or _IE_)
+- JAWS: _Job Access With Speech_ (paired with Internet Explorer or _IE_)
 
 ## aria-describedby
 
@@ -12,9 +12,6 @@ Accessibility Notes
 - error messages
 
 __*AT Notes*__
-
-
-
 
 example:
 
@@ -24,9 +21,10 @@ example:
 ```
 
 ## aria-labelledby
+
 "aria-labelledby can be used in conjunction with the <label> element (using the for attribute) to improve compatibility with user agents that do not yet support ARIA." (mdn)
 
-- lablledby can be used in conjunction with a label element
+- labelledby can be used in conjunction with a label element
 example:
 
 ```
@@ -38,8 +36,19 @@ example:
 </ul>
 ```
 
-
 ##aria-label
 
 - Supported by Jaws in most cases
 - NOT supported by NVDA
+
+##Click events with JAWS and NVDA
+
+JAWS
+
+- The `Enter` key by itself will not trigger click events on focusable elements
+- Instead, use `Shift + Enter`
+
+NVDA
+
+- The `Enter` key by itself will not trigger click events on focusable elements
+- Instead, use `NVDA key` (often caps-lock) `+ Enter`
