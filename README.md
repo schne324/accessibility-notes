@@ -4,7 +4,7 @@ Accessibility Notes
 **Key:**
 - VO: _Voice Over_ (paired with Safari)
 - NVDA: _NonVisual Desktop Access_ (paired with FireFox or _FF_)
-- JAWS: _Job Access With Speec_ (paired with Internet Explorer or _IE_)
+- JAWS: _Job Access With Speech_ (paired with Internet Explorer or _IE_)
 
 ## aria-describedby
 
