@@ -8,6 +8,8 @@ Accessibility Notes
 
 ## aria-describedby
 
+"The aria-describedby attribute is used to indicate the IDs of the elements that describe the object. It is used establish a relationship between widgets or groups and text that described them" (mdn)
+
 - tooltips
 - error messages
 
