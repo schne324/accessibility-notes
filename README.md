@@ -41,6 +41,11 @@ example:
 - Supported by Jaws in most cases
 - NOT supported by NVDA
 
+## aria-hidden=true
+
+- Can be used to hide visible content to screen readers
+(http://www.456bereastreet.com/archive/201205/hiding_visible_content_from_screen_readers_with_aria-hidden/)
+
 ##Click events with JAWS and NVDA
 
 JAWS
