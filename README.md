@@ -52,15 +52,21 @@ example:
 
 ## label "for" vs. input "title"
 
-ChromeVox
+Chrome w/ChromeVox
 
+- Only "label": only the label content is read.
 - Both "for" and "title": only the label contents are read.
 - Only "title": only the "title" attribute is read.
 
-NVDA
+Firefox w/NVDA & Internet Explorer w/JAWS
 
+- Only "label": only the label content is read.
 - Both "for" and "title": first the label contents, then the "title" are read.
 - Only "title": only the "title" attribute is read.
+
+Safari w/Voiceover
+
+- Someone with a mac, get on it!
 
 ##Click events with JAWS and NVDA
 
