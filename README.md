@@ -50,6 +50,13 @@ example:
 - Can be used to hide visible content to screen readers
 (http://www.456bereastreet.com/archive/201205/hiding_visible_content_from_screen_readers_with_aria-hidden/)
 
+## label "for" vs. input "title"
+
+ChromeVox
+
+- If the label is linked to the input with the "for" attribute, and the input has a "title", only the "for" value will be read.
+- If the label is NOT linked to the input, and the input has a "title", only the "title" will be read.
+
 ##Click events with JAWS and NVDA
 
 JAWS
