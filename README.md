@@ -54,8 +54,13 @@ example:
 
 ChromeVox
 
-- If the label is linked to the input with the "for" attribute, and the input has a "title", only the "for" value will be read.
-- If the label is NOT linked to the input, and the input has a "title", only the "title" will be read.
+- Both "for" and "title": only the label contents are read.
+- Only "title": only the "title" attribute is read.
+
+NVDA
+
+- Both "for" and "title": first the label contents, then the "title" are read.
+- Only "title": only the "title" attribute is read.
 
 ##Click events with JAWS and NVDA
 
