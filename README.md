@@ -66,7 +66,9 @@ Firefox w/NVDA & Internet Explorer w/JAWS
 
 Safari w/Voiceover
 
-- Someone with a mac, get on it!
+- Only "label": only the label content is read.
+- Both "for" and "title": first title contents, then the label contents are read.
+- Only "title": only the "title" attribute is read.
 
 ##Click events with JAWS and NVDA
 
