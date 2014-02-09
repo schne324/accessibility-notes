@@ -50,25 +50,25 @@ example:
 - Can be used to hide visible content to screen readers
 (http://www.456bereastreet.com/archive/201205/hiding_visible_content_from_screen_readers_with_aria-hidden/)
 
-## label "for" vs. input "title"
+## \<label "for"\> vs. \<input "title"\>
 
 Chrome w/ChromeVox
 
-- Only "label": only the label content is read.
-- Both "for" and "title": only the label contents are read.
-- Only "title": only the "title" attribute is read.
+- `for` only: only the label content is read.
+- `for` & `title`: only the label contents are read.
+- `title` only: only the "title" attribute is read.
 
 Firefox w/NVDA & Internet Explorer w/JAWS
 
-- Only "label": only the label content is read.
-- Both "for" and "title": first the label contents, then the "title" are read.
-- Only "title": only the "title" attribute is read.
+- `for` only: only the label content is read.
+- `for` & `title`: first the label contents, then the "title" are read.
+- `title` only: only the "title" attribute is read.
 
 Safari w/Voiceover
 
-- Only "label": only the label content is read.
-- Both "for" and "title": first title contents, then the label contents are read.
-- Only "title": only the "title" attribute is read.
+- `for` only: only the label content is read.
+- `for` & `title`: first title contents, then the label contents are read.
+- `title` only: only the "title" attribute is read.
 
 ##Click events with JAWS and NVDA
 
