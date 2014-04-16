@@ -50,6 +50,9 @@ example:
 - Can be used to hide visible content to screen readers
 (http://www.456bereastreet.com/archive/201205/hiding_visible_content_from_screen_readers_with_aria-hidden/)
 
+##aria-controls
+- only supported by Jaws
+
 ## \<label "for"\> vs. \<input "title"\>
 
 Chrome w/ChromeVox
